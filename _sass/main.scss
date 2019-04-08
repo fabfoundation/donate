@@ -26,4 +26,13 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+$family-sans-serif: "Open Sans", sans-serif;
+@import "../node_modules/bulma/sass/utilities/initial-variables";
 @import "../node_modules/bulma/bulma";
+
+.is-compact-control {
+  width: 60%;
+  margin: 0 auto;
+}
