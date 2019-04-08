@@ -6950,3 +6950,25 @@ label.panel-block {
 .is-compact-control {
   width: 60%;
   margin: 0 auto; }
+
+.card.is-rounded {
+  border-radius: 12px; }
+
+.is-desert {
+  background-color: #f8c57aff;
+  background-image: linear-gradient(#f8c57aff, #ffffff, #ffffff, #ffffff); }
+
+.has-happy-bg {
+  background-image: url(../closing.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 400px; }
+
+.card.is-fixed-height {
+  min-height: 370px; }
+
+.has-right-margin-1 {
+  margin-right: 8px; }
+
+.has-right-margin-2 {
+  margin-right: 16px; }
